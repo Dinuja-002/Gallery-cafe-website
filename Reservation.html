@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Reservation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Gallery Café</title>
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="#">The Gallery <span>Café</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About.html">Contact</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>The Gallery Café</h2>
+        <p>Reserve your Table Now</p>
+    </div>
+
+    <!-- Reservation Form -->
+    <div class="reservation">
+        <h2 class="title-1">Make your reservation now</h2>
+        <form action="Reservation.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="people">Number of People:</label>
+            <input type="text" id="people" name="people" required>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required><br>
+            <button type="submit">Make Reservation</button>
+        </form>
+    </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <label>Copyright &copy; 2025</label>
+            </div>
+            <div class="brand">
+                <label>The Gallery <span>Café</span></label>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

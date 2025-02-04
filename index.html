@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Gallery Café</title>
+    <link rel="icon" href="img/favicon.ico">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="#">The Gallery <span>Café</span></a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Menu.html">Menu</a></li>
+                <li><a href="About.html">Contact</a></li>
+                <li><a href="Login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>The Gallery Café</h2>
+        <p>FAMILY . RELAX . INDULGE . EAT . SMILE</p>
+    </div>
+
+    <section id="promo-card">
+        <div class="promo-container">
+            <div class="promo-card">
+                <img src = "img/Espresso.svg" alt="Espresso SVG" width="60" height="60" fill="none"/>
+                <h3 class="h3-card-title">Espresso Offer</h3>
+                <p class="card-text">Buy 1 Espresso and get a 20% off for second espresso.
+                </p>
+                <img src="img/Espresso.jpg" width="250" height="250" alt="Espresso" class="promo-img">
+            </div>
+
+            <div class="promo-card">
+                <img src = "img/Salad Bowl.svg" alt="Salad Bowl SVG" width="60" height="60" fill="none"/>
+                <h3 class="h3-card-title">Salad Offer</h3>
+                <p class="card-text">Buy 2 Seafood Salad Get 1 Mojito Free.</p>
+                <img src="img/Veg-Salad.jpeg" width="250" height="250" alt="Veg-Salad" class="promo-img">
+            </div>
+
+            <div class="promo-card">
+                <img src = "img/Eating.svg" alt="Eating SVG" width="60" height="60" fill="none"/>
+                <h3 class="h3-card-title">Dine In Offer</h3>
+                <p class="card-text">For every Risotto 10% cashback.*Dine In Only*
+                </p>
+                <img src="img/Chicken And Mushroom Risotto.jpg" width="250" height="250" alt="Risotto" class="promo-img">
+            </div>
+
+            <div class="promo-card">
+                <img src = "img/Milkshake.svg" alt="Milkshake SVG" width="60" height="60" fill="none"/>
+                <h3 class="h3-card-title">Free Milkshake</h3>
+                <p class="card-text">Get a Free Milkshake with every Steak you order.</p>
+                <img src="img/Chocolate Milkshake.jpg" width="250" height="250" alt="Milkshake" class="promo-img">
+            </div>
+        </div>
+    </section>
+
+
+    <div class="contact" id="contact">
+        <div class="contact-box">
+            <div class="contact-image">
+                <img src="img/bg-image.jpeg">
+            </div>
+        </div>
+        <div class="contact-box">
+            <div class="contact-body">
+                <form action="Query.php" method="post">
+                    <h2>Contact Us</h2>
+                    <div class="form-content">
+                        <input type="text" id="query" name="query"  required>
+                        <span></span>
+                        <label>Enquiry</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="text" id="name" name="name" required>
+                        <span></span>
+                        <label>Name</label>
+                    </div>
+                    <div class="form-content">
+                        <input type="email" id="email" name="email" required>
+                        <span></span>
+                        <label>Email</label>
+                    </div>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-box">
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="copyright">
+                <label>Copyright &copy; 2025</label>
+            </div>
+            <div class="brand">
+                <label>The Gallery <span>Café</span></label>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
